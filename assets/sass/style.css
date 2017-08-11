@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/* line 2, /home/justin/Desktop/task/assets/sass/style.sass */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #fff !important;
+  /*MYCAROUSEL*/ }
+  /* line 5, /home/justin/Desktop/task/assets/sass/style.sass */
+  body section.image {
+    position: relative;
+    height: 100vh;
+    background: url(http://www.jodihelmer.com/wordpress/wp-content/uploads/2014/01/desk-and-typewriter.jpg) no-repeat;
+    background-size: cover; }
+    /* line 10, /home/justin/Desktop/task/assets/sass/style.sass */
+    body section.image:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #2b2b2b;
+      opacity: 0.5; }
+  /* line 19, /home/justin/Desktop/task/assets/sass/style.sass */
+  body .navbar {
+    background: none; }
+    /* line 21, /home/justin/Desktop/task/assets/sass/style.sass */
+    body .navbar .navbar-toggler {
+      filter: invert(100%); }
+    /* line 23, /home/justin/Desktop/task/assets/sass/style.sass */
+    body .navbar .navbar-brand {
+      color: #fff !important;
+      font-size: 30px;
+      text-shadow: 0px 0px 10px #2b2b2b; }
+  /* line 27, /home/justin/Desktop/task/assets/sass/style.sass */
+  body .navbar-collapse {
+    justify-content: flex-end; }
+    /* line 29, /home/justin/Desktop/task/assets/sass/style.sass */
+    body .navbar-collapse li {
+      margin-right: 15px;
+      text-shadow: 0px 0px 10px #2b2b2b; }
+      /* line 31, /home/justin/Desktop/task/assets/sass/style.sass */
+      body .navbar-collapse li a {
+        color: #fff !important; }
+  /* line 35, /home/justin/Desktop/task/assets/sass/style.sass */
+  body .welcomeText {
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    /* line 42, /home/justin/Desktop/task/assets/sass/style.sass */
+    body .welcomeText .text {
+      width: 60vw;
+      color: #fff !important;
+      border-radius: 2px;
+      border: 2px white solid;
+      padding: 20px;
+      text-shadow: -1px -1px 2px #2b2b2b;
+      box-shadow: -2px -2px 20px #1b1b1a;
+      font-size: 47px;
+      text-align: center; }
+  /* line 53, /home/justin/Desktop/task/assets/sass/style.sass */
+  body #about {
+    color: #2b2b2b !important;
+    min-height: 400px;
+    background: white;
+    padding: 20px; }
+    /* line 58, /home/justin/Desktop/task/assets/sass/style.sass */
+    body #about .col-md-5 {
+      display: flex; }
+    /* line 60, /home/justin/Desktop/task/assets/sass/style.sass */
+    body #about .textAboutMe {
+      padding: 20px;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto; }
+    /* line 67, /home/justin/Desktop/task/assets/sass/style.sass */
+    body #about img {
+      border-radius: 25px;
+      margin: 0 auto; }
+  /* line 71, /home/justin/Desktop/task/assets/sass/style.sass */
+  body #portfolio {
+    align-items: center;
+    min-height: 450px;
+    color: #fff !important;
+    background: url(http://cdn30.us1.fansshare.com/image/abstractwallpapers/dark-grey-polygon-abstract-wallpaper-dark-1336258043.jpg) no-repeat fixed;
+    background-size: cover; }
+    /* line 77, /home/justin/Desktop/task/assets/sass/style.sass */
+    body #portfolio h2.title {
+      width: 100%;
+      color: #fff;
+      margin: 20px; }
+  /* line 82, /home/justin/Desktop/task/assets/sass/style.sass */
+  body #contact {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    /* line 88, /home/justin/Desktop/task/assets/sass/style.sass */
+    body #contact h2 {
+      margin-bottom: 30px;
+      color: #2b2b2b; }
+    /* line 91, /home/justin/Desktop/task/assets/sass/style.sass */
+    body #contact .innerContact {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      /* line 96, /home/justin/Desktop/task/assets/sass/style.sass */
+      body #contact .innerContact i {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        margin-right: 20px;
+        color: #fff;
+        background-color: #2b2b2b;
+        border-radius: 50%;
+        border: 1x solid grey;
+        padding: 10px;
+        transition: 0.3s all ease-in-out;
+        cursor: pointer; }
+        /* line 109, /home/justin/Desktop/task/assets/sass/style.sass */
+        body #contact .innerContact i:hover {
+          transform: rotate(360deg); }
+      /* line 112, /home/justin/Desktop/task/assets/sass/style.sass */
+      body #contact .innerContact a:hover, body #contact .innerContact a:focus {
+        text-decoration: none !important; }
+  /* line 119, /home/justin/Desktop/task/assets/sass/style.sass */
+  body .owl-carousel i {
+    font-size: 100px; }
+  @media (min-width: 1366px) {
+    /* line 122, /home/justin/Desktop/task/assets/sass/style.sass */
+    body .owl-item {
+      max-width: 300px; }
+    /* line 126, /home/justin/Desktop/task/assets/sass/style.sass */
+    body .owl-stage {
+      display: flex;
+      justify-content: center; } }
+  /* line 133, /home/justin/Desktop/task/assets/sass/style.sass */
+  body footer {
+    height: 50px;
+    text-align: center;
+    background: #3b4d55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1b1b1a; }
+
+/*# sourceMappingURL=style.css.map */
